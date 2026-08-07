@@ -8,13 +8,6 @@
   <a href="https://x.com/KairosLab"><img alt="Kairos Lab on X" src="https://img.shields.io/badge/@KairosLab-0D0E12?style=for-the-badge&logo=x&logoColor=EDE7DC&labelColor=0D0E12"></a>
 </p>
 
-<p align="center">
-  <img alt="Immunefi" src="https://img.shields.io/badge/Immunefi-C1462F?style=flat-square&labelColor=0D0E12">
-  <img alt="Cantina" src="https://img.shields.io/badge/Cantina-C1462F?style=flat-square&labelColor=0D0E12">
-  <img alt="HackerOne" src="https://img.shields.io/badge/HackerOne-C1462F?style=flat-square&labelColor=0D0E12">
-  <img alt="Intigriti" src="https://img.shields.io/badge/Intigriti-C1462F?style=flat-square&labelColor=0D0E12">
-</p>
-
 ---
 
 ### `> whoami`
@@ -37,7 +30,6 @@ I build the infrastructure I wish the ecosystem already had, then keep it runnin
 | 🔑 | **KairosAuth** | Passwordless auth — WebAuthn + ZK proofs. Base Sepolia → Aster Chain. |
 | 🔬 | **[StatShield](https://github.com/Valisthea/Statshield-website)** | Scientific integrity scanner. 8 analysis modules, GRIM/SPRITE/statcheck, image forensics. |
 | 📜 | **Covenant** | Declarative smart contract language with native FHE, ZK and post-quantum primitives. |
-| 🎨 | **[TinousAI](https://tinousai.com)** | Consumer AI visual identity studio. Next.js, Stripe. |
 | 🎮 | **HARMLESS** | Godot 4.3 prelude. Because not everything needs to be a vulnerability. |
 
 ---
@@ -71,15 +63,6 @@ I build the infrastructure I wish the ecosystem already had, then keep it runnin
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Valisthea/Valisthea/output/kairos-snake.svg">
     <img alt="contribution graph animation" src="https://raw.githubusercontent.com/Valisthea/Valisthea/output/kairos-snake-dark.svg" width="100%">
   </picture>
-</div>
-
----
-
-<div align="center">
-
-<img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=Valisthea&show_icons=true&hide_border=true&bg_color=0D0E12&title_color=F2A93B&icon_color=C1462F&text_color=A9A399&border_radius=10">
-<img height="150" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Valisthea&layout=compact&hide_border=true&bg_color=0D0E12&title_color=F2A93B&text_color=A9A399&border_radius=10">
-
 </div>
 
 ---
