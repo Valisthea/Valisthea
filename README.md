@@ -25,7 +25,6 @@ I build the infrastructure I wish the ecosystem already had, then keep it runnin
 | | Project | What it is |
 |---|---|---|
 | ⛓ | **[AsterScan](https://aster-scan.com)** | Community block explorer for Aster Chain. Live, growing DAU, v2 chart engine. |
-| ⛓ | **AsterValidators** | Validator and staking monitoring for Aster Chain. |
 | 🛡 | **Kairos Recon** | Dual-spectrum passive recon SaaS. Amber phosphor design system. |
 | 🔑 | **KairosAuth** | Passwordless auth — WebAuthn + ZK proofs. Base Sepolia → Aster Chain. |
 | 🔬 | **[StatShield](https://github.com/Valisthea/Statshield-website)** | Scientific integrity scanner. 8 analysis modules, GRIM/SPRITE/statcheck, image forensics. |
