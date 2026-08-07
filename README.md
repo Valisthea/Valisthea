@@ -30,7 +30,6 @@ I build the infrastructure I wish the ecosystem already had, then keep it runnin
 | 🔑 | **KairosAuth** | Passwordless auth — WebAuthn + ZK proofs. Base Sepolia → Aster Chain. |
 | 🔬 | **[StatShield](https://github.com/Valisthea/Statshield-website)** | Scientific integrity scanner. 8 analysis modules, GRIM/SPRITE/statcheck, image forensics. |
 | 📜 | **Covenant** | Declarative smart contract language with native FHE, ZK and post-quantum primitives. |
-| 🎮 | **HARMLESS** | Godot 4.3 prelude. Because not everything needs to be a vulnerability. |
 
 ---
 
