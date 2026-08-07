@@ -1,0 +1,39 @@
+name: contribution animation
+
+on:
+  # regenerate every 24h
+  schedule:
+    - cron: "0 3 * * *"
+  # allow manual runs from the Actions tab
+  workflow_dispatch:
+  # and on every push to main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # reads the public contribution graph of the repo owner
+      # and renders it as an animated SVG (snake eating the cells)
+      - name: generate animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # color_dots takes EXACTLY 5 colors: 0 contributions -> highest
+          outputs: |
+            dist/kairos-snake-dark.svg?color_snake=%23F2A93B&color_dots=%230D0E12,%233A2A12,%237A5418,%23C4862B,%23F2A93B
+            dist/kairos-snake.svg?color_snake=%23C1462F&color_dots=%23EFEAE0,%23F5D9A8,%23EDB865,%23DE9426,%23C1462F
+
+      # publishes dist/ to the "output" branch, where the README reads it from
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
